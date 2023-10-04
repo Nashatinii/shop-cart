@@ -1,0 +1,53 @@
+.hidden {
+    display: none;
+    pointer-events: none;
+    transition: all 0.5s ease; 
+  }
+  body{
+    background-color: black
+  }
+  h1,
+  label
+  /* td */
+  {
+color: #fff;
+  }
+  
+  #messageContainer {
+    background-color: rgb(104, 193, 104); /* Set your desired background color */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  #messageContainer-delete{
+    background-color:red; /* Set your desired background color */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  #messageContainer-update{
+    background-color: #ffca2c;/* Set your desired background color */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .color_yellow{
+    background-color: #ffca2c;
+  }
+  .color_yellow:hover{
+background-color: #ffca2c;
+  }
+  
